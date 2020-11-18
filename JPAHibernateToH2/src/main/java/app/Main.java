@@ -23,7 +23,7 @@ public class Main {
 		// Create our repositories
 		AuthorRepository authorRepository = new AuthorRepository(entityManager);
 		BookRepository bookRepository = new BookRepository(entityManager);
-		
+
 		// Create four authors
 		Author virginia = new Author("Virginia Wolf", "UK");
 		Author leon = new Author("Leon Tolstoi", "Russia");
